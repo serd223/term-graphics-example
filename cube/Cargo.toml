@@ -1,0 +1,9 @@
+[package]
+name = "cube"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+framebrush = { git = "https://github.com/serd223/framebrush.git", rev = "d8726d1961f49b371a5f8e3ac72431cd0d1f4627" }
+base64 = "0.23.1"
+crossterm = "0.29.0"
